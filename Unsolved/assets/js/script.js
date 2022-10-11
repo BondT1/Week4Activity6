@@ -21,3 +21,8 @@ site3El.children[1].children[0].setAttribute("alt", "women working");
 site3El.children[1].children[0].setAttribute("style", "padding:10px;");
 
 // Write Your Code Below
+
+const allH4Elements = document.querySelector('h4')
+allH4Elements.fotEach(element => {
+    element.setAttribute('style', 'color:blue; font-weight: bold; font-seize: 30px; padding-left: 10px; margin: 0px')
+})
